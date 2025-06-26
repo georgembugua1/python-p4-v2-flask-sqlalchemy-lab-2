@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.13, pytest-8.3.5, pluggy-1.5.0
+rootdir: /home/george/Desktop/python-p4-v2-flask-sqlalchemy-lab-2
+configfile: pytest.ini
+collected 8 items
+
+../Customer in models.py has association proxy to items .                [ 12%]
+../Review model in models.py can be invoked to create a Python object. . [ 25%]
+                                                                         [ 25%]
+../Review model in models.py can be instantiated with a comment attribute. . [ 37%]
+                                                                         [ 37%]
+../Review model in models.py can be added to a transaction and committed to review table with comment column. . [ 50%]
+                                                                         [ 50%]
+../Review model in models.py has foreign keys and relationships .        [ 62%]
+../models in models.py customer is serializable .                        [ 75%]
+../models in models.py item is serializable .                            [ 87%]
+../models in models.py review is serializable .                          [100%]
+
+============================== 8 passed in 1.47s ===============================
